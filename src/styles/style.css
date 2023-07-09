@@ -1,0 +1,10 @@
+@import url('./common/global.css');
+@import url('./common/reset.css');
+
+@import url('./partials/calculator.css');
+
+@import url('./utils/theme-light.css');
+@import url('./utils/theme-dark.css');
+
+@import url('./utils/variables.css');
+@import url('./utils/keyframes.css');

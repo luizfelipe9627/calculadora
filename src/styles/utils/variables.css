@@ -1,0 +1,16 @@
+:root {
+  --background-dark-01: #121214;
+  --background-dark-02: #202024;
+
+  --background-white-01: #E1E1E6;
+  --background-white-02: #E0E0ED;
+  --background-white-03: #DADAE0;
+
+  --background-gray-01: #C4C4CC;
+  --background-gray-02: #A2A2B0;
+
+  --background-blue: #007CFF;
+
+  --text-white: #ffffff;
+  --text-gray: #8C8C93
+}

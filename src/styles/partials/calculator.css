@@ -1,0 +1,109 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator-container {
+  width: 360px;
+  border-radius: 32px;
+}
+
+.calculator {
+  padding: 22px 22px 30px 22px;
+}
+
+.mode {
+  display: flex;
+  width: 42px;
+  height: 24px;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+.mode span {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.display {
+  margin-top: 20px;
+  font-family: "Amiko", sans-serif;
+  text-align: right;
+}
+
+.display-operation {
+  font-size: 20px;
+}
+
+.display-operation-text {
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.display-operation-text::-webkit-scrollbar {
+  height: 8px;
+}
+
+.display-operation-text::-webkit-scrollbar-track {
+  background: var(--background-dark-01);
+  border-radius: 5px;
+}
+
+.display-operation-text::-webkit-scrollbar-thumb {
+  background: var(--background-white-03);
+  border-radius: 5px;
+}
+
+.display-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.display-operation-result {
+  margin: 0 22px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 22px 32px 22px;
+  border-radius: 32px;
+}
+
+.buttons div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.button-number {
+  padding: 16px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+.button-number#ac,
+.button-number#equal {
+  width: 148px;
+  padding: 14px 52px;
+  border-radius: 50px;
+}
+
+.button-number#division,
+.button-number#multiplication,
+.button-number#multiplication,
+.button-number#subtraction,
+.button-number#addition {
+  background-color: var(--background-blue);
+}

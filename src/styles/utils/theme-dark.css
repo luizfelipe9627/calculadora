@@ -1,0 +1,29 @@
+.calculator-container.dark {
+  background-color: var(--background-dark-02);
+}
+
+.calculator-container.dark .mode {
+  background-color: var(--background-white-01);
+}
+
+.calculator-container.dark .mode div span {
+  background-color: var(--background-dark-02);
+}
+
+.calculator-container.dark .display-operation {
+  color: var(--background-gray-02);
+}
+
+.calculator-container.dark .display-result,
+.calculator-container.dark .display-operation-result svg path {
+  color: var(--background-white-03);
+  stroke: var(--background-white-03);
+}
+
+.calculator-container.dark .buttons {
+  background-color: var(--background-dark-01);
+}
+
+.calculator-container.dark .button-number {
+  background-color: var(--background-dark-02);
+}

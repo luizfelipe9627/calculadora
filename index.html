@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
+
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="calculator-container light">
+        <div class="calculator">
+          <div class="mode">
+            <div>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="display">
+            <div class="display-operation">
+              <span class="display-result-text">2.400 + 100 x 3 + 2323232 - 2312423 * 2312312</span>
+            </div>
+
+            <div class="display-result">
+              <span class="display-operation-result">
+                <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 20H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5 12H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+
+              <span class="display-operation-text">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <div>
+            <button class="button-number" id="ac">
+              <img src="./src/assets/svg/ac.svg" alt="Símbolo de limpar tela">
+            </button>
+
+            <button class="button-number" id="porcent">
+              <img src="./src/assets/svg/porcent.svg" alt="Símbolo de porcentagem">
+            </button>
+
+            <button class="button-number" id="division">
+              <img src="./src/assets/svg/division.svg" alt="Símbolo de divisão">
+            </button>
+          </div>
+
+          <div>
+            <button class="button-number">
+              <img src="./src/assets/svg/seven.svg" alt="Número 7">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/eight.svg" alt="Número 8">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/nine.svg" alt="Número 9">
+            </button>
+
+            <button class="button-number" id="multiplication">
+              <img src="./src/assets/svg/multiplication.svg" alt="Símbolo de multiplicação">
+            </button>
+          </div>
+
+          <div>
+            <button class="button-number">
+              <img src="./src/assets/svg/four.svg" alt="Número 4">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/five.svg" alt="Número 5">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/six.svg" alt="Número 6">
+            </button>
+
+            <button class="button-number" id="subtraction">
+              <img src="./src/assets/svg/subtraction.svg" alt="Símbolo de subtração">
+            </button>
+          </div>
+
+          <div>
+            <button class="button-number">
+              <img src="./src/assets/svg/one.svg" alt="Número 1">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/two.svg" alt="Número 2">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/three.svg" alt="Número 3">
+            </button>
+
+            <button class="button-number" id="addition">
+              <img src="./src/assets/svg/addition.svg" alt="Símbolo de soma">
+            </button>
+          </div>
+
+          <div>
+            <button class="button-number">
+              <img src="./src/assets/svg/dot.svg" alt="Símbolo de ponto">
+            </button>
+
+            <button class="button-number">
+              <img src="./src/assets/svg/zero.svg" alt="Número 0">
+            </button>
+
+            <button class="button-number" id="equal">
+              <img src="./src/assets/svg/equal.svg" alt="Símbolo de igual">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./src/scripts/script.js"></script>
+</body>
+
+</html>
