@@ -1,5 +1,5 @@
 // Função responsável por alterar o tema da calculadora.
-export default class ModeTheme {
+export default class Theme {
   // O construtor é responsável por selecionar os elementos necessários para o módulo.
   constructor() {
     this.calculator = document.querySelector(".calculator-container"); // Está atribuindo ao this.calculator o elemento com a classe .calculator-container.
