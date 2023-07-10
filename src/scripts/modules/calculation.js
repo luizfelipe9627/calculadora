@@ -78,7 +78,7 @@ export default class Calculation {
       setTimeout(() => {
         this.displayResult.textContent = "0"; // Está atribuindo ao texto do this.displayResult o valor 0.
         this.displayResult.style.fontSize = "48px"; // Está atribuindo ao estilo do this.displayResult o valor 48px.
-        this.displayResult.style.color = "initial"; // Está atribuindo ao estilo do this.displayResult a cor inicial definida no CSS.
+        this.displayResult.style.color = ""; // Está atribuindo ao estilo do this.displayResult a cor padrão definida no CSS.
       }, 1500);
     }
   }

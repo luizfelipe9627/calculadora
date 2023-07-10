@@ -1,0 +1,19 @@
+{
+    "env": {
+      "browser": true, // Para o eslint entender o window.
+      "es2021": true // Para o eslint entender o ES6.
+    },
+    "extends": [
+      "airbnb-base", // Para o eslint entender o airbnb.
+      "prettier" // Para o eslint entender o prettier, por conta das aspas duplas.
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest", // Para o eslint entender o ES6.
+      "sourceType": "module" // Para o eslint entender o import/export.
+    },
+    "rules": { 
+      "import/extensions": 0, // Para o eslint não reclamar das extensões dos arquivos.
+      "no-console": 0, // Para o eslint não reclamar do console.log.
+      "no-eval": 0 // Para o eslint não reclamar do eval.
+    }
+  }
