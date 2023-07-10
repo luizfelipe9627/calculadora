@@ -6,6 +6,16 @@
 
 button {
   border: none;
-  outline: none;
   cursor: pointer;
+  outline: none;
+}
+
+img {
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    cursor: none;
+  }
 }

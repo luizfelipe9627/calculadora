@@ -87,10 +87,9 @@ section {
 }
 
 .button-number {
-  padding: 16px;
-  border-radius: 50%;
   width: 65px;
   height: 65px;
+  border-radius: 50%;
 }
 
 .button-number#ac,

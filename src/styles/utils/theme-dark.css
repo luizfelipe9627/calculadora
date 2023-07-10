@@ -27,3 +27,10 @@
 .calculator-container.dark .button-number {
   background-color: var(--background-dark-02);
 }
+
+.calculator-container.dark .button-number:focus {
+  background-color: none;
+  outline: none;
+  border: none;
+  
+}
