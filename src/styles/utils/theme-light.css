@@ -24,6 +24,10 @@
   background-color: var(--background-gray-01);
 }
 
-.calculator-container.light .button-number {
+.calculator-container.light .number,
+.calculator-container.light .dot,
+.calculator-container.light .ac,
+.calculator-container.light .arrow,
+.calculator-container.light .equal {
   background-color: var(--background-gray-02);
 }

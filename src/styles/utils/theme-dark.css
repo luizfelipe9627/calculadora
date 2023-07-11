@@ -24,13 +24,10 @@
   background-color: var(--background-dark-01);
 }
 
-.calculator-container.dark .button-number {
+.calculator-container.dark .number,
+.calculator-container.dark .dot,
+.calculator-container.dark .ac,
+.calculator-container.dark .arrow,
+.calculator-container.dark .equal {
   background-color: var(--background-dark-02);
-}
-
-.calculator-container.dark .button-number:focus {
-  background-color: none;
-  outline: none;
-  border: none;
-  
 }

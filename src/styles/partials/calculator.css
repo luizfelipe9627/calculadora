@@ -1,10 +1,3 @@
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 .calculator-container {
   width: 360px;
   border-radius: 32px;
@@ -44,6 +37,7 @@ section {
   margin-top: 15px;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .display-operation-text::-webkit-scrollbar {
@@ -79,30 +73,29 @@ section {
   border-radius: 32px;
 }
 
-.buttons div {
+.row {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 12px;
 }
 
-.button-number {
+.number,
+.operator,
+.arrow,
+.dot {
   width: 65px;
   height: 65px;
   border-radius: 50%;
 }
 
-.button-number#ac,
-.button-number#equal {
+.ac,
+.equal {
   width: 148px;
   padding: 14px 52px;
   border-radius: 50px;
 }
 
-.button-number#division,
-.button-number#multiplication,
-.button-number#multiplication,
-.button-number#subtraction,
-.button-number#addition {
+.operator {
   background-color: var(--background-blue);
 }

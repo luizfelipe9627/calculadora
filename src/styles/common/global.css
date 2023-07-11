@@ -5,6 +5,13 @@ body {
   background-position: center;
 }
 
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 @media (max-width: 768px) {
   body {
     background-image: url('../../assets/img/background-mobile.png');
