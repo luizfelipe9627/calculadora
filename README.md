@@ -10,7 +10,9 @@ Uma calculadora é um dispositivo que permite a resolução de cálculos matemá
 
 ## 📑 Observação
 
-Usei esse projeto para praticar HTML5, CSS3 e principalmente JavaScript. Utilizei o Node.JS para que o Webpack e ESlint funcionasse e conseguissem ser usados para melhor desempenho do código JS.
+Usei esse projeto para praticar HTML5, CSS3 e principalmente POO utilizando JavaScript.
+Esse foi o primeiro projeto em que eu faço tema light e dark.
+Utilizei Node.JS para que o Webpack e ESlint funcionasse e conseguissem ser usados para melhor desempenho do código JS. 
 
 ### <a href="https://luizfelipe9627-calculadora.netlify.app">Acesse o site</a>
 
