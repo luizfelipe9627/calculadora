@@ -130,7 +130,7 @@ export default class Calculation {
     this.displayOperation.textContent = this.displayOperation.textContent.slice(
       0,
       -1
-    ); // Está atribuindo ao texto do displayOperation o valor do texto do displayOperation sem o último caractere(com o slice) e removendo os espaços em branco(com o trim).
+    ); // Está atribuindo ao texto do this.displayOperation o valor do texto do this.displayOperation sem o último caractere.
 
     // Está verificando se o texto do displayOperation está vazio, se estiver executa o código dentro do if.
     if (this.displayOperation.textContent === "") {
