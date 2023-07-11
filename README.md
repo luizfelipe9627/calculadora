@@ -18,7 +18,7 @@ Utilizei Node.JS para que o Webpack e ESlint funcionasse e conseguissem ser usad
 
 ## 🎨 Layout
 
-### Créditos do layout para o <a href="https://www.figma.com/community/file/1233536186431750478">Adrei Nascimento</a>.
+### Créditos do layout para o <a href="https://www.figma.com/community/file/1233536186431750478">Andrei Nascimento</a>.
 
 ## 💻 Tecnologias utilizadas
 
