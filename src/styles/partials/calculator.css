@@ -40,17 +40,22 @@
   text-overflow: ellipsis;
 }
 
+.display-operation-text.error {
+  color: var(--red);
+  animation: textFlasher 1.2s ease-in-out infinite;
+}
+
 .display-operation-text::-webkit-scrollbar {
   height: 8px;
 }
 
 .display-operation-text::-webkit-scrollbar-track {
-  background: var(--background-dark-01);
+  background: var(--black-01);
   border-radius: 5px;
 }
 
 .display-operation-text::-webkit-scrollbar-thumb {
-  background: var(--background-white-03);
+  background: var(--gray-03);
   border-radius: 5px;
 }
 
@@ -97,5 +102,5 @@
 }
 
 .operator {
-  background-color: var(--background-blue);
+  background-color: var(--blue-01);
 }

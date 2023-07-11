@@ -1,27 +1,27 @@
 .calculator-container.light {
-  background-color: var(--background-white-02);
+  background-color: var(--gray-01);
 }
 
 .calculator-container.light .mode {
-  background-color: var(--background-dark-02);
+  background-color: var(--black-02);
 }
 
 .calculator-container.light .mode div span {
-  background-color: var(--background-white-01);
+  background-color: var(--gray-02);
 }
 
 .calculator-container.light .display-operation {
-  color: var(--text-gray);
+  color: var(--gray-06);
 }
 
 .calculator-container.light .display-result,
 .calculator-container.light .display-operation-result svg path {
-  color: var(--background-dark-02);
-  stroke: var(--background-dark-02);
+  color: var(--black-02);
+  stroke: var(--black-02);
 }
 
 .calculator-container.light .buttons {
-  background-color: var(--background-gray-01);
+  background-color: var(--gray-04);
 }
 
 .calculator-container.light .number,
@@ -29,5 +29,5 @@
 .calculator-container.light .ac,
 .calculator-container.light .arrow,
 .calculator-container.light .equal {
-  background-color: var(--background-gray-02);
+  background-color: var(--gray-04);
 }

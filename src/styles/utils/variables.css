@@ -1,16 +1,17 @@
 :root {
-  --background-dark-01: #121214;
-  --background-dark-02: #202024;
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ff0000;
 
-  --background-white-01: #E1E1E6;
-  --background-white-02: #E0E0ED;
-  --background-white-03: #DADAE0;
+  --black-01: #121214;
+  --black-02: #202024;
 
-  --background-gray-01: #C4C4CC;
-  --background-gray-02: #A2A2B0;
+  --gray-01: #e0e0ed;
+  --gray-02: #e1e1e6;
+  --gray-03: #dadae0;
+  --gray-04: #c4c4cc;
+  --gray-05: #a2a2b0;
+  --gray-06: #8c8c93;
 
-  --background-blue: #007CFF;
-
-  --text-white: #ffffff;
-  --text-gray: #8C8C93
+  --blue-01: #007cff;
 }

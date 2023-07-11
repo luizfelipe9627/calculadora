@@ -73,16 +73,14 @@ export default class Calculation {
 
       this.displayResult.textContent = formattedResult; // Está atribuindo ao texto do this.displayResult o valor da const result.
     } catch (error) {
-      this.displayResult.textContent = "Operação inválida"; // Está atribuindo ao texto do this.displayResult o valor "Operação inválida".
-      this.displayResult.style.fontSize = "28px"; // Está atribuindo ao estilo do this.displayResult o valor 28px.
-      this.displayResult.style.color = "red"; // Está atribuindo ao estilo do this.displayResult a cor vermelha.
+      this.displayResult.textContent = "Erro"; // Está atribuindo ao texto do this.displayResult o valor "Error".
+      this.displayResult.classList.add("error"); // Está adicionando a classe .error ao this.displayResult.
 
       // O setTimeout é responsável por executar o código dentro dele depois de 1s.
       setTimeout(() => {
         this.displayResult.textContent = "0"; // Está atribuindo ao texto do this.displayResult o valor 0.
-        this.displayResult.style.fontSize = "48px"; // Está atribuindo ao estilo do this.displayResult o valor 48px.
-        this.displayResult.style.color = ""; // Está atribuindo ao estilo do this.displayResult a cor padrão definida no CSS.
-      }, 2000);
+        this.displayResult.classList.remove("error"); // Está remove a classe .error do this.displayResult.
+      }, 4000);
     }
   }
 
@@ -108,7 +106,7 @@ export default class Calculation {
         break;
     }
 
-    return formattedResult;
+    return formattedResult; // Está retornando o valor da variável formattedResult.
   }
 
   // O método resultMath é responsável por chamar o método calculateResult quando o botão de igual for clicado.
