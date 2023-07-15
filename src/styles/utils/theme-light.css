@@ -29,5 +29,5 @@
 .calculator-container.light .ac,
 .calculator-container.light .arrow,
 .calculator-container.light .equal {
-  background-color: var(--gray-04);
+  background-color: var(--gray-05);
 }
